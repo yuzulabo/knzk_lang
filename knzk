@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Knzk < Brainfuck
+  nxt 'おっすおっす！！！'
+  inc 'はろ～～～～！！！'
+  prv 'いらっしゃいだ！！！'
+  dec '100db'
+  opn '1神崎20万円'
+  cls 'うりずん'
+  put "きしめえええええん"
+  get 'yum'
+end
+
+puts Knzk.new.fuck(ARGF.read)
+
